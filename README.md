@@ -36,4 +36,4 @@ All pull requests reviewed by Leo Vigna.
 ## License
 
 2019 Leo Vigna
-All Rights Reserved.
+MIT License.
