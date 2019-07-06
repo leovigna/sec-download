@@ -1,10 +1,14 @@
 # Python Starter Project
-Leo's Python starter project.
-After working on many Python projects, I've decided to fork all new projects from this starter repo.
+Download data from [sec.gov/data.json](https://www.sec.gov/data.json)
 
 ## Getting Started
+Environment variables:
+* DOWNLOAD_DIR: where to save the downloaded data.
 
-
+To run the download script:
+```
+(venv) $ python secdownload.py
+```
 ## Installing
 If you are new to Python follow these steps.
 To install all required python dependencies, create the virtual environment and activate it.
@@ -51,7 +55,7 @@ For linting and code formatting:
 * [black](https://pypi.org/project/black/)
 
 ### Also used
-* [dotenv](https://pypi.org/project/doten/) nifty tool for loading environment variables
+* [environs](https://pypi.org/project/environs/) nifty tool for loading environment variables
 * [gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore) template for Python
 
 ## Contributing
