@@ -28,6 +28,13 @@ git remote add upstream https://github.com/leovigna/python-starter.git
 git push origin master
 git push --all
 ```
+Then to sync any new changes form this repo to the new repo follow [this](https://help.github.com/en/articles/syncing-a-fork):
+```
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
+
 
 ## Dependencies
 ### Testing
