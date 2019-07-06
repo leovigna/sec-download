@@ -1,3 +1,8 @@
+# Load .env
+from dotenv import load_dotenv
+load_dotenv()
+
+
 def main():
     print('Python Starter Project')
 

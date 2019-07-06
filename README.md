@@ -1,13 +1,13 @@
 # Python Starter Project
-Python starter project.
+Leo's Python starter project.
+After working on many Python projects, I've decided to fork all new projects from this starter repo.
 
 ## Getting Started
 
-To get started make sure you create your own separate branch, you know what project folder you are working, and you correctly install all necessary dependencies.
 
-### Installing
-
-To install all required python dependencies, create the virtual environmnet and activate it.
+## Installing
+If you are new to Python follow these steps.
+To install all required python dependencies, create the virtual environment and activate it.
 ```
 $ python3 -m venv venv
 $ source venv/bin/activate
@@ -17,23 +17,27 @@ Install the dependencies.
 ```
 (venv) $ pip install -r requirements.txt
 ```
+## Dependencies
+### Testing
+For testing and code coverage:
+* [pytest](https://pypi.org/project/pytest/)
+* [coverage](hhttps://pypi.org/project/coverage/)
 
-## Testing
+### Deployment
+* [docker](https://www.docker.com)
 
-### Unit tests
+### Codestyle
+For linting and code formatting:
+* [pycodestyle](https://pypi.org/project/pycodestyle/)
+* [black](https://pypi.org/project/black/)
 
-## Deployment
-
-## Built With
-
-* [gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore) - gitignore template for Python
+### Also used
+* [dotenv](https://pypi.org/project/doten/) nifty tool for loading environment variables
+* [gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore) template for Python
 
 ## Contributing
-
-To contribute code, create your separate branch with your name.
-All pull requests reviewed by Leo Vigna.
+To contribute code, feel free to fork this repo.
  
 ## License
-
 2019 Leo Vigna
 MIT License.
