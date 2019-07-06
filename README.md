@@ -51,7 +51,7 @@ For linting and code formatting:
 * [black](https://pypi.org/project/black/)
 
 ### Also used
-* [dotenv](https://pypi.org/project/doten/) nifty tool for loading environment variables
+* [environs](https://pypi.org/project/environs/) nifty tool for loading environment variables
 * [gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore) template for Python
 
 ## Contributing
