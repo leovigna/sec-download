@@ -1,4 +1,4 @@
-# Python Starter Project
+# SEC Open Data Download
 Download data from [sec.gov/data.json](https://www.sec.gov/data.json)
 
 ## Getting Started
